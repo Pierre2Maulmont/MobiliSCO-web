@@ -9,7 +9,7 @@ MobiliSCO aide les agents des collèges et lycées à organiser un voyage scolai
 ### Quoi
 
 ### Irritants
-Actuellement, la plupart des intendants des 8000 établissements de France gèrent leurs voyages sur tableur, avec des données coupées de la base élève. Or entre la préparation et la fin du voyage, les élèves changent de classe, arrivent ou partent de l'établissement, annulent leur participation. De plus, l'organisation du voyage nécessite de multiples délivrables et les agents recopient des données de la base élèves.
+Actuellement, la plupart des intendants des 8000 établissements de France gèrent leurs voyages sur tableur, avec des données coupées de la base élève. Or entre la préparation et la fin du voyage, les élèves changent de classe, arrivent ou partent de l'établissement, annulent leur participation. De plus, l'organisation du voyage nécessite de multiples délivrables et les agents doivent recopier des données de la base élèves.
 MobiliSCO-Access remplit ce besoin, mais l'application :
 - est sensible à l'environnement de l'utilisateur (SE, version d'Access),
 - nécessite une installation fastidieux,
@@ -18,7 +18,11 @@ MobiliSCO-Access remplit ce besoin, mais l'application :
 - dialogue difficilement avec les autres services (logiciels d'encaissement public et privés, base élèves SIECLE)
 
 ### La proposition de valeur
-MobiliSCO-web offre les mêmes fonctionnalités que la version Access mais répond aux tirets
+MobiliSCO-web offre les fonctionnalités principales de la version Access mais :
+- en plus simple pour les utilisateurs,
+- plus collaborative,
+- offrant des possibilités de partage des données avec le ministère,
+
 
 ## Contributing
 
