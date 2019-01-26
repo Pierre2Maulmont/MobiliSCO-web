@@ -1,4 +1,7 @@
 - Github : retrouver le dessin des branches qui se rejoignent. Insights ?
+
+> insight puis network : https://github.com/Pierre2Maulmont/MobiliSCO-web/network
+
 - Comment Stéphane voit-il les évolutions des doc.md alors que VSC est un outil local ?
 
 - Autre intérêt des fichiers markdown ?  
