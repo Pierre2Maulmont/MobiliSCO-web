@@ -34,7 +34,7 @@ user story (qq jours) User activity
 tâche (qq heures) user task
 
 Quelles que soient les ressources (nombre de dèeloppeurs, compétences), une user story fera toujours quelques jours. C'est un horizon d'action.
-Build the map in a way that helps you tell the story.
+"Build the map in a way that helps you tell the story."
 
 
 
@@ -68,4 +68,4 @@ Mais depuis VSC ?
 - pratique syntaxe Markdown
 https://www.markdownguide.org/basic-syntax/
 - 1ère lecture approfondie de jpattonassociates : The New User Story Backlog is a Map. Inspirant pour dédramatiser l'ampleur de la construction de MobiliSCO-web
-
+- add
