@@ -8,10 +8,14 @@ https://www.youtube.com/watch?v=SWYqp7iY_Tc
 __pwd :__ dans quel répertoire je suis
 __ls :__ voir la liste des fichiers et répertoires dans le dossier courant  
 __ls -l -a :__ voir sous forme de liste  
-__cd :__ se placer dans un répertoire   
+__cd :__ se placer dans un répertoire  
+__cd ..__ remonter au répertoire en amont 
 __mkdir :__ créer un dossier  
 __touch :__ créer un fichier  
-__cat :__ afficher le contenu d’un fichier  
+__cat :__ afficher le contenu d’un fichier 
+__rm -Rf fichier.md :__ remove sans demander confirmation d'un fichier, répertoire. DANGER : à lar racine, suivi de *, on efface tout le disque dur !
+
+
 
 ## PREMIERS COMMIT
 
@@ -93,11 +97,13 @@ Le fichier .gitignore doit être tracké comme vos autres fichiers dans Git : vo
 __git stash :__ pour mettre de côté (planquer) sans faire de commit superflu. 
 git stash pop (attention ça supprime ce qu’il y a dans le stash !)
 
+## COLLABORER
+
+Récupérer le code d'un projet open-source, faire mes modifications, les proposer à la personne en charge du projet  
 __pull request__
 step 1 : récupérer le repo
-Bouton fork en haut à droite : copie le repository du projet sur lequel je veux contribuer sur mon compte github. Je vérifie ensuite que je suis bien sur mon compte (barre URL de github/P2maulmont).
-Ensuite, bouton HTTPS clone URL, pour récupérer l’URL, puis git clone URL_du_projet.
-Vous savez faire, il vous suffit de copier l'URL https de la copie du repo que vous avez "forké" sur votre compte GitHub et de la coller dans votre terminal en faisant un git clone. 
+Bouton fork en haut à droite : copie le repository du projet sur lequel je veux contribuer sur mon compte github. Je vérifie ensuite que je suis bien sur mon compte (barre URL de github/P2maulmont).  
+Ensuite, bouton HTTPS clone URL, pour récupérer l’URL, puis git clone URL_du_projet.  
 ls (lister les fichiers du répertoire courant), pour vérifier que le projet est bien là. cd répertoire, pour se placer dedans ; git log, pour voir tous les commit du projet.
 step 2 : faites vos modifs
 Avant tout, regarder dans la documentation (le README ou PULL REQUESTS, le plus souvent) le mode d’emploi des contribution (Contributing). Généralement, on y précise les formes attendues des contributions (syntaxe des commits, tests…).
