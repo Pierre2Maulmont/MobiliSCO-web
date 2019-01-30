@@ -1,7 +1,3 @@
-- Github : retrouver le dessin des branches qui se rejoignent. Insights ?
-- Comment Stéphane voit-il les évolutions des doc.md alors que VSC est un outil local ?
-Je crois avoir la réponse : parce que j'ai commité et il le voit sur Github. Où sur Github ? Trouvé! dans Code/doc/.md
-
 - Autre intérêt des fichiers markdown ?  
 +Avoir les docs plus près du code, dans un environnement unique  
 -la nécessité d'avoir à coder la mise en page  
@@ -9,3 +5,10 @@ Je crois avoir la réponse : parce que j'ai commité et il le voit sur Github. O
 Trouvé! aussi dans Code/doc/.md 
 
 - lu sur wikipedia : "certains langages de balisage léger permettent l'enchâssement de HTML (par exemple : Markdown)"
+
+- Sans terminal (donc sans add), peut-on différencier les commit ?
+- terminal : comment déplacer les md d'un répertoire à l'autre
+
+- md : syntaxe pour bullet point de rang 2 et +
+- VSC ouvre parfois une fenêtre working tree, montrant les ajouts (verts) et retraits (rouges) par rapport à la version précédente du md.
+

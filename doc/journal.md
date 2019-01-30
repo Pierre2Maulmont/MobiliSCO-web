@@ -68,4 +68,23 @@ Mais depuis VSC ?
 - pratique syntaxe Markdown
 https://www.markdownguide.org/basic-syntax/
 - 1ère lecture approfondie de jpattonassociates : The New User Story Backlog is a Map. Inspirant pour dédramatiser l'ampleur de la construction de MobiliSCO-web
-- add
+- git add pour chaque fichier.md modifié : échec
+
+29/1/19
+
+- visionné "Agile Product Ownership in a Nutshell" et retenu que le mot le  plus important à prononcer est "NO", pour le PO
+- La curiosité pour la langue constitue un moteur de rechange pour lire des ressources en anglais
+- Avec Stéphane, git add différenciés sur la console
+
+30/1/19 : 
+- git add différenciés tout seul  
+
+Message nouveau sur terminal :  
+_git status_
+_On branch master_
+_Your branch and 'origin/master' have diverged,_
+_and have 2 and 3 different commits each, respectively._
+ _ (use "git pull" to merge the remote branch into_ _yours)_
+
+Solution : git pull pour avoir toutes les mises à jour en local, puis add et commit différenciés. Mais je risque d'écraser un "local" plus à jour que le "remote" ??  
+Yannick me rassure, la gestion des conflits existe entre les niveaux local/remote. Le ADD concerne seulement un échange entre mon répertoire et l'index (deux espaces distincts, mais local)
