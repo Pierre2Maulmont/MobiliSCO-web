@@ -19,7 +19,7 @@ MobiliSCO-Access remplit ce besoin, mais l'application :
 MobiliSCO-web offre les fonctionnalités principales de la version Access mais :
 - en plus simple pour les utilisateurs,
 - plus collaborative,
-- offrant des possibilités de partage des données avec le ministère,
+- offrant des possibilités de partage des données avec le ministère.
 
 
 ## Contributing

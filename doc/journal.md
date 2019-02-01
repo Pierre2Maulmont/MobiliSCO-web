@@ -88,3 +88,7 @@ _and have 2 and 3 different commits each, respectively._
 
 Solution : git pull pour avoir toutes les mises à jour en local, puis add et commit différenciés. Mais je risque d'écraser un "local" plus à jour que le "remote" ??  
 Yannick me rassure, la gestion des conflits existe entre les niveaux local/remote. Le ADD concerne seulement un échange entre mon répertoire et l'index (deux espaces distincts, mais local)
+
+31/1/19
+- lu les bases de l'impact mapping__
+_"Une carte d’impact met tous les livrables dans le contexte des changements de comportements qu’ils sont censés créer"_

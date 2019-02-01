@@ -14,7 +14,7 @@ __mkdir :__ créer un dossier
 __touch :__ créer un fichier  
 __cat :__ afficher le contenu d’un fichier 
 __rm -Rf fichier.md :__ remove sans demander confirmation d'un fichier, répertoire. DANGER : à lar racine, suivi de *, on efface tout le disque dur !
-
+__q ou ESC q__ pour sortir après un git log
 
 
 ## PREMIERS COMMIT
@@ -24,7 +24,7 @@ __git status :__ dans quel état se trouve le repository, ie le répertoire de t
 
 __git init :__ Pour activer un dossier comme repository Git, géré par Git, il suffit de se placer dans ce dossier avec le Terminal puis d'utiliser la commande git init. 
 
-__git add :__ Pour gérer un repository, Git génère un index de tous les fichiers dont il doit faire le suivi. Lorsque vous créez un fichier dans un repository, vous devez donc l'ajouter à l'index Git à l'aide de la commande git add nomDeVotreFichier.extension. 
+__git add fichier.md :__ Pour gérer un repository, Git génère un index de tous les fichiers dont il doit faire le suivi. Lorsque vous créez un fichier dans un repository, vous devez donc l'ajouter à l'index Git à l'aide de la commande git add nomDeVotreFichier.extension. 
 Par exemple : git add checklist-vacances.md
 Pour gagner du temps, vous pouvez ajouter tous les fichiers dans le répertoire courant en tapant git add .
 
