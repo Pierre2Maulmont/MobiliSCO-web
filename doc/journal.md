@@ -116,13 +116,14 @@ Programmer la release suivante
 
 __5 phases__
 1) Ambiance du sprint : enthousiasme partagé
-- Je trouve le format adapté 
+- Je trouve le format adapté (13h hebdo)
 - Plus progressé sur git que les 8 derniers mois
 - A aucun moment, je n'ai ressenti de perte de sens, ni au quotidien, ni à long terme.
 - découvert une légitimité de parler code ou environnement du code, sans être développeur
 
 2) Bien passé : séparer les faits et la discussion
 Revue des faits : la quotidienne par écrit, le blocage sur les conflits dans git et VSC, le versionning de Keybase dans git
+
 3) Frottements 
 - Peu utilisé encore le project de Github, comme incitation à agir
 - A terme, il faudra se poser la question du financement de ce programme, pour le rendre viable et durable
@@ -130,7 +131,11 @@ Revue des faits : la quotidienne par écrit, le blocage sur les conflits dans gi
 
 4) Actions correctrices : néant
 
-5) Rétro de la rétro : même si on manque de grain à moudre, ça a permis de poser le cadre de la rétro pour les fois prochaines
+5) Rétro de la rétro : même si on manque cette fois de grain à moudre, ça a permis de poser le cadre de la rétro pour les fois prochaines
+
+3/2/19
+
+- Commit sur journal avec retro, depuis console
 
 
 

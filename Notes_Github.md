@@ -26,7 +26,7 @@ __git init :__ Pour activer un dossier comme repository Git, géré par Git, il 
 
 __git add fichier.md :__ Pour gérer un repository, Git génère un index de tous les fichiers dont il doit faire le suivi. Lorsque vous créez un fichier dans un repository, vous devez donc l'ajouter à l'index Git à l'aide de la commande git add nomDeVotreFichier.extension. 
 Par exemple : git add checklist-vacances.md
-Pour gagner du temps, vous pouvez ajouter tous les fichiers dans le répertoire courant en tapant git add .
+Pour gagner du temps, vous pouvez ajouter tous les fichiers dans le répertoire courant en tapant __git add .__
 
 __git commit :__ Lorsque vous modifiez votre repository, vous devez demander à Git d'enregistrer vos modifications en faisant un git commit. L'option-m vous permet de lui envoyer un message décrivant les modifications effectuées, ce qui s'avèrera très utile pour vous par la suite, you'll see!  Par exemple : 
 __git commit -m__ "Ajouté ma checklist-vacances.md (woohoo!)"
