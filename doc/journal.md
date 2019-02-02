@@ -8,7 +8,8 @@ On a refait sur VSC ce qu'on fait avec console/terminal
 On a modifié sur VSC, pushé sur github, modifié sur Github, pullé
 Différencié git (local) et github (distant, interface web collaborative)
 sauvegardé (CRTL S)
-repéré icone graph avec branches (invitation à commiter) icone en bas (invitation à pusher)
+repéré icone de Source control - le graph avec branches (invitation à commiter). Message du commit CRLT ENTER pour commiter
+icone en bas avec flèches montante/descendante (invitation à pusher)
 
 Notion de cohortes, à interroger pour valider les prédictions et paris. 3 caractéristiques :
 - pas trop grandes
@@ -133,9 +134,10 @@ Revue des faits : la quotidienne par écrit, le blocage sur les conflits dans gi
 
 5) Rétro de la rétro : même si on manque cette fois de grain à moudre, ça a permis de poser le cadre de la rétro pour les fois prochaines
 
-3/2/19
-
-- Commit sur journal avec retro, depuis console
+3/2/19  
+Je fais mes gammes : 
+- Commit sur journal avec retro, et push depuis console
+- commit depuis VSC, puis vérification par git log sur console. push depuis VSC
 
 
 
