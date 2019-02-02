@@ -136,7 +136,7 @@ Revue des faits : la quotidienne par écrit, le blocage sur les conflits dans gi
 3/2/19
 
 - Commit sur journal avec retro, depuis console
-
+- Commit depuis github (crayon Edit)
 
 
 
