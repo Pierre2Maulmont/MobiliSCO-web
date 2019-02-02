@@ -141,6 +141,8 @@ Je fais mes gammes :
 - Modif et commit depuis github (crayon Edit), push & pull depuis VSC. Deux couleurs (vert et bleu) montrent le conflit et 4 onglets en surbrillance pour le résoudre. Je choisis le dernier : accepter les 2 modif (celle du remote et celle du local). Nouveau push&pull depuis VSC : échec du pull, "git : Pulling is not possible because you have unmerged files"
 Nouvelle modif du journal sur VSC, sauvegarde, commit échoue : "there are no changes to commit"
 Sur console : both modified (en rouge) : journal.md
+Autre modif par VSC, là le commit s'effectue. 
+Rien à puller, 2 à pusher.
 
 
 
