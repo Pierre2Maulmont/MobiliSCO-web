@@ -91,4 +91,48 @@ Yannick me rassure, la gestion des conflits existe entre les niveaux local/remot
 
 31/1/19
 - lu les bases de l'impact mapping__
-_"Une carte d’impact met tous les livrables dans le contexte des changements de comportements qu’ils sont censés créer"_
+_"Une carte d’impact met tous les livrables dans le contexte des changements de comportements qu’ils sont censés créer"_  
+- Résolu avec Margot et validé avec Stéphane le conflit 
+
+1/2/19
+- Abordé utilisation de git pour les fichiers privés de DossierSCO sur keybase, avec Stéphane. 
+Au lieu de Github, c'est Keybase qui devient le remote : 
+_git clone keybase://team/dossiersco/a_suivre_
+
+Versionné le répertoire a_suivre. 
+Problème à fixer : placard.md créé n'apparait pas sur la console.
+_kolel@DESKTOP-6TQRVF0 MINGW64 /k/team/dossiersco  
+$ git status  
+fatal: Not a git repository (or any of the parent directories): .git_  
+
+2/2/19  
+
+## Démo de fin de sprint zéro
+Objet : échange avec les stakeholders
+montrer l'incrément, consolidé durant le sprint.
+Programmer la release suivante  
+
+## Rétro de fin de sprint zéro (manifeste agile)
+
+__5 phases__
+1) Ambiance du sprint : enthousiasme partagé
+- Je trouve le format adapté 
+- Plus progressé sur git que les 8 derniers mois
+- A aucun moment, je n'ai ressenti de perte de sens, ni au quotidien, ni à long terme.
+- découvert une légitimité de parler code ou environnement du code, sans être développeur
+
+2) Bien passé : séparer les faits et la discussion
+Revue des faits : la quotidienne par écrit, le blocage sur les conflits dans git et VSC, le versionning de Keybase dans git
+3) Frottements 
+- Peu utilisé encore le project de Github, comme incitation à agir
+- A terme, il faudra se poser la question du financement de ce programme, pour le rendre viable et durable
+- Stéphane : peur que le cadre flottant me désoriente
+
+4) Actions correctrices : néant
+
+5) Rétro de la rétro : même si on manque de grain à moudre, ça a permis de poser le cadre de la rétro pour les fois prochaines
+
+
+
+
+
