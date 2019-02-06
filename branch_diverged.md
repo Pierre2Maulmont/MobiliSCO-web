@@ -138,3 +138,75 @@ fatal: Exiting because of an unresolved conflict.
 
 kolel@DESKTOP-6TQRVF0 MINGW64 ~/MobiliSCO-web/doc (master|MERGING)
 $
+
+
+
+kolel@DESKTOP-6TQRVF0 MINGW64 ~/MobiliSCO-web/doc (master|MERGING)
+$ ls
+journal.md  questions.md  ressources.md
+
+kolel@DESKTOP-6TQRVF0 MINGW64 ~/MobiliSCO-web/doc (master|MERGING)
+$ cd ..
+
+kolel@DESKTOP-6TQRVF0 MINGW64 ~/MobiliSCO-web (master|MERGING)
+$ ls
+ doc/   Notes_Github.md   README.md  'Your branch have diverged.md'
+
+kolel@DESKTOP-6TQRVF0 MINGW64 ~/MobiliSCO-web (master|MERGING)
+$ pwd
+/c/Users/kolel/MobiliSCO-web
+
+kolel@DESKTOP-6TQRVF0 MINGW64 ~/MobiliSCO-web (master|MERGING)
+$ pwd
+/c/Users/kolel/MobiliSCO-web
+
+kolel@DESKTOP-6TQRVF0 MINGW64 ~/MobiliSCO-web (master|MERGING)
+$ ls
+branch_diverged.md  doc/  Notes_Github.md  README.md
+
+kolel@DESKTOP-6TQRVF0 MINGW64 ~/MobiliSCO-web (master|MERGING)
+$ add branch_diverged.md
+bash: add: command not found
+
+kolel@DESKTOP-6TQRVF0 MINGW64 ~/MobiliSCO-web (master|MERGING)
+$ git add branch_diverged.md
+
+kolel@DESKTOP-6TQRVF0 MINGW64 ~/MobiliSCO-web (master|MERGING)
+$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 4 and 3 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+
+        modified:   README.md
+        new file:   branch_diverged.md
+        new file:   doc/ressources.md
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   doc/questions.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Notes_Github.md
+
+
+kolel@DESKTOP-6TQRVF0 MINGW64 ~/MobiliSCO-web (master|MERGING)
+$ git commit -m "ajout branch_diverged.md et modif README"
+error: Committing is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+U       doc/questions.md
+
+kolel@DESKTOP-6TQRVF0 MINGW64 ~/MobiliSCO-web (master|MERGING)
+$
