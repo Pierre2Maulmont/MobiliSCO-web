@@ -8,4 +8,13 @@ Question 2 : comment trouver l'adresse de keybase à cloner dans git clone ?
 
 - md : syntaxe pour bullet point de rang 2 et +
 
+- console, message nouveau :
+$ git add debrief_etablissements.md
+warning: LF will be replaced by CRLF in debrief_etablissements.md.
+The file will have its original line endings in your working directory.
+
+- Déplacer un fichier.md dans la console
+
+
+
 
