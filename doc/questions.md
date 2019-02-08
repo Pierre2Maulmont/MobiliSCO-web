@@ -15,6 +15,8 @@ The file will have its original line endings in your working directory.
 
 - Déplacer un fichier.md dans la console
 
+lean canvas : 
+Après problem & alternatives : phase "je vais vérifier que c'est faux" (17 minutes) ??
 
 
 
