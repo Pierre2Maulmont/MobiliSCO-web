@@ -93,3 +93,7 @@ Avantages pour le financeur :
 - Nombre de voyages réalisés
 - Temps moyen passé par EPLE pour gérer un voyage sur MobiliSCO-web
 
+### Unfair advantage : building something that cannot easily be copied or bought
+- Dogfooding et feedbacks : je suis agent comptable de 6 lycées et collèges et j'ai supervisé cette année 4 voyages par établisement, soit 24 voyages au total. Les questions portant sur les voyages arrivent en premier parmi les demandes d'aide régulières des gestionnaires du regroupement comptable.
+- L'expérience accumulée avec MobiliSCO Access
+- l'état d'esprit Open Academie : L'humilité déterminée pour permettre aux agents de revenir à leur coeur de métier, qui consiste à accueillir un public, apporter une réponse spécifique à ses besoins. 
