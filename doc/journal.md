@@ -152,8 +152,10 @@ lu sur wikipedia :
 - __Eric RIES__, _"The Lean Startup: How Today's Entrepreneurs Use **Continuous Innovation** to Create Radically Successful Businesses"_ 2008
 Analyse des échecs de ses deux entreprises : _"elle partait d'une technologie, au lieu de la développer à partir des besoins à satisfaire"_
 - __Ash MAURYA, ""Running Lean: How to Iterate from Plan A to a plan that works"__ a développé le lean canvas, liste de neuf questions pour tester l'adéquation du produit au marché
-- __Steve BLANK__ : customer developpement
-
+- __Steve BLANK, "The Four Steps to the Epiphany"__ : customer developpement
+"Get out of the building"
+Most of the answers lie outside the building — not on your computer, or in
+the lab. You have to get out and directly engage customers.
 - __Définition du pivot__ : dans le processus d'apprentissage par itérations, une startup peut découvrir par des retours terrain avec de vrais clients que son produit n'est pas adapté, qu'il ne répond pas à un besoin. Toutefois, pendant ce processus d'apprentissage, il se peut que la startup ait identifié un autre besoin (souvent connexe au premier produit). Lorsque la startup change de produit pour répondre à ce nouveau besoin identifié, on dit qu'elle a effectué un « Pivot ». 
 
 - __Antagonisme des équipes dèv et ops__
@@ -165,6 +167,8 @@ L'antagonisme de ces objectifs, intrinsèques à l'activité de chaque type d'é
 
 Plus généralement, organiser une entreprise comme un ensemble d'équipes ayant des objectifs indépendants les uns des autres avec des indicateurs spécifiques à chaque équipe va __générer des optimums locaux__ et des guerres entre équipes,
 
-8/2/19
-Rempli le lean canvas de MobiliSCOweb (1/2) et présenté
+8/2/19 et 10/2/19
+Rempli et présenté le lean canvas de MobiliSCO web
+Démarré lecture de Running Lean
+
 

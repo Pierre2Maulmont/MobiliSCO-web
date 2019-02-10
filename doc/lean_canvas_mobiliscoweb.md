@@ -6,32 +6,20 @@ Trois cohortes Homogènes, faciles à atteindre, pas trop nombreuses.
 - les early adopters "historiques" de MobiliSCO Access.
 Très impliqués dans l'outil actuel : testeurs des mises à jour, formateurs académiques, ambassadeurs dans leur académie.
 
-Etienne, Claudine Créteil
-Vincent Caen
-Aude Nancy
-Sébastien, Sandrine Versailles
-Jérome Paris
-Edwis, Sophie Montpellier
-Laurence Lyon
-Christophe Nicollas Poitiers
-Carole Limoges
-
 - les simples consommateurs de Mobilisco Access
-
-Sébastien et son équipe, Paris
-Nawel, Arago Paris
-Atteindre : les auteurs de mails de demande de support
+Atteignables : les auteurs de mails de demande de support
 
 - les intendants non utilisateurs de Mobilisco Access
 Atteindre : les utilisateurs des autres produits Openacadémie
 
 ## Problem
-### Les 3 irritants partagés par la dernière cohorte
-Difficulté : les utilisateurs de MobiliSCO Access ne partagent que le dernier :c
 
+### Irritants partagés par la dernière cohorte  
 - Je ne dispose pas d'outil pour exploiter les bases élèves et profs dans la gestion d'un voyage, autre que le tableur
 - je dois générer quantité de livrables (ordre de mission des profs accompagnateurs, lettre d'engagement des familles, arrêté de régie...)
-- je dois encaisser dans un logiciel comptable d'ancienne génération, ayant des capacités d'import de données limitées
+
+### Irritants partagés par tous
+je dois encaisser dans un logiciel comptable d'ancienne génération, ayant des capacités d'import de données limitées
 
 ### Existing alternatives
 - MobiliSCO Access, mais frictions existent : 
@@ -42,58 +30,44 @@ Le support répond de façon aléatoire (entraide par la communauté sur un site
 - Gestion par outils bureautiques basiques (tableurs, traitement de texte) 
 - Convaincre le chef d'établissement de limiter le nombre de voyages scolaires
 
-### Unique value proposition UVP (cohorte 3)
+## Unique value proposition UVP (cohorte 3)
 
 Rendre possibles les voyages scolaires, moment pédagogique fort,
 Sécuriser les voyages, en respectant la réglementation administrative et comptable,
 Ne pas sacrifier les autres missions de l'intendance, en diminuant le temps passé à la gestion du voyage.
 
-"Organiser les mobilités des élèves et accompagnateurs, comme une agence de voyage, mais sans se transformer en agence de voyages"
-
-__"Faire partir ses élèves en voyage, en toute sécurité mais sans y passer l'année"__
+__"Faire partir ses élèves en voyage, dans le respect de la règlementation mais sans y passer l'année"__
 
 
-### High level concept HLC 
-Ne plus avoir à dire NO MORE au chef d'établissement
+    ### High level concept HLC 
+MobiliSCOweb, c'est l'agence de voyage administrative des intendants, qui les décharge des formalités
 
-### Solution 
+## Solution 
 Adresser les problèmes en faisant mieux que les altervatives
 L'outil doit :
     - éditer tous les documents administratifs et comptables, de manière automatisée, avec des données à jour.
     - assister la préparation et l'exécution budgétaire
     - aider à l'encaissement des participations des familles
 
-### Channels
-
+## Channels
 - Les Open lab des early adopters de MobiliSCO Access
 - les pages Open académie du forum des gestionnaires
 - le mailing pair à pair vers les intendances
 - la revue Intendance
 
-### Revenue streams : modèle de revenus
-Plusieurs options
-- Subvention par AJI (Association pour les journées de l'intendance)
-Maintien de l'open source mais on sortirait de la gratuité (à demi : cotisation forfaitaire modique par an et par collège donnant accès à tous les services)
-Convention existe déjà avec Open academie;
-- Subvention du ministère : 
-Avantages pour le financeur : 
-    * avoir des données sur les voyages scolaires des utilisateurs
-    * Illustrer le besoin d'une API SIECLE
+## Revenue streams : modèle de revenus du MVP (pas du produit)
+Produire de la valeur, à défaut de flux financier
+Susciter l'enthousiasme, monnaie de l'open source
 
+## Cost structures (du MVP): 
+- héberger les données (moins de 10 € par mois)
 
-### Cost structures : 
-- héberger les données
-- prestations de dèv
-- prestations de biz dèv
-- support
+## Key metrics : l'indicateur qui me montrerait que l'hypothèse du canvas a réussi dans quelques mois
+- Simuler la gestion d'un voyage dans mon lycée
+- Avoir un temps moyen passé pour gérer un voyage inférieur à celui de MobiliSCO Acces
 
-
-### Key metrics
-- nombre de collèges réalisant un voyage par MobiliSCO-web
-- Nombre de voyages réalisés
-- Temps moyen passé par EPLE pour gérer un voyage sur MobiliSCO-web
-
-### Unfair advantage : building something that cannot easily be copied or bought
-- Dogfooding et feedbacks : je suis agent comptable de 6 lycées et collèges et j'ai supervisé cette année 4 voyages par établisement, soit 24 voyages au total. Les questions portant sur les voyages arrivent en premier parmi les demandes d'aide régulières des gestionnaires du regroupement comptable.
+## Unfair advantage : building something that cannot easily be copied or bought
+2ème phare, après la proposition de valeur
+- En tant qu'agent comptable de 7 lycées et collèges (4 voyages par an chacun en moyenne), j'ai un accès priviliégié aux feedbacks sur les irritants 
 - L'expérience accumulée avec MobiliSCO Access
-- l'état d'esprit Open Academie : L'humilité déterminée pour permettre aux agents de revenir à leur coeur de métier, qui consiste à accueillir un public, apporter une réponse spécifique à ses besoins. 
+- l'état d'esprit Open Academie : L'humilité déterminée pour permettre aux agents de revenir à leur coeur de métier, qui consiste à accueillir un public, apporter une réponse spécifique à ses besoins et non remplir des tableaux ni faire de la mise en page.
