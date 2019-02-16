@@ -19,28 +19,28 @@ Atteindre : les utilisateurs des autres produits Openacadémie
 - je dois générer quantité de livrables (ordre de mission des profs accompagnateurs, lettre d'engagement des familles, arrêté de régie...)
 
 ### Irritants partagés par tous
-je dois encaisser dans un logiciel comptable d'ancienne génération, ayant des capacités d'import de données limitées
+je dois encaisser les participations des familles dans un logiciel comptable d'ancienne génération, ayant des capacités d'import de données limitées
 
 ### Existing alternatives
 - MobiliSCO Access, mais frictions existent : 
-Logiciel payant, version gratuite run-time mal maitrisée par concepteurs. 
-Versions d'Access perturbent la première utilisatione et le support.
-L'importation des bases par l'utilisateur freine la conversion.
+C'est un logiciel payant ; une version gratuite run-time existe, mais elle est mal maitrisée par concepteurs. 
+Les versions d'Access des clients perturbent les primo-utilisateurs et le support.
+L'importation semi-automatisée des bases élèves par l'utilisateur freine la conversion.
 Le support répond de façon aléatoire (entraide par la communauté sur un site professionnel)
 - Gestion par outils bureautiques basiques (tableurs, traitement de texte) 
 - Convaincre le chef d'établissement de limiter le nombre de voyages scolaires
 
 ## Unique value proposition UVP (cohorte 3)
 
-Rendre possibles les voyages scolaires, moment pédagogique fort,
-Sécuriser les voyages, en respectant la réglementation administrative et comptable,
-Ne pas sacrifier les autres missions de l'intendance, en diminuant le temps passé à la gestion du voyage.
+Diminuer le temps passé à la gestion du voyage, pour ne pas sacrifier les autres missions de l'intendance,
+sans en limiter le nombre, car il s'agit d'un moment fort pour la communauté éducative,
+en les sécurisant, du point de vue de la conformité à la réglementation administrative et comptable.
 
-__"Faire partir ses élèves en voyage, dans le respect de la règlementation mais sans y passer l'année"__
+__"Faire partir tous les voyages scolaires, dans le respect de la règlementation mais sans y passer l'année"__
 
 
     ### High level concept HLC 
-MobiliSCOweb, c'est l'agence de voyage administrative des intendants, qui les décharge des formalités
+MobiliSCOweb, c'est l'agence de voyage ou l'assistant de gestion des intendants, qui les décharge des formalités
 
 ## Solution 
 Adresser les problèmes en faisant mieux que les altervatives
@@ -57,7 +57,7 @@ L'outil doit :
 
 ## Revenue streams : modèle de revenus du MVP (pas du produit)
 Produire de la valeur, à défaut de flux financier
-Susciter l'enthousiasme, monnaie de l'open source
+Susciter l'enthousiasme, pour se faire aider en nature par les dèvs de la communauté, 
 
 ## Cost structures (du MVP): 
 - héberger les données (moins de 10 € par mois)

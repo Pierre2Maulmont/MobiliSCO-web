@@ -146,7 +146,7 @@ Rien à puller, 2 à pusher.
 
 5/2/19
 Abordé notions générales sur le lean start up
-Focus sur le business model (modèdel d'entreprise), plus que sur le business plan (plan d'affaires : exécution concrète) ?
+Focus sur le business model (modède d'entreprise), plus que sur le business plan (plan d'affaires : exécution concrète) ?
 
 lu sur wikipedia :
 - __Eric RIES__, _"The Lean Startup: How Today's Entrepreneurs Use **Continuous Innovation** to Create Radically Successful Businesses"_ 2008
@@ -170,5 +170,15 @@ Plus généralement, organiser une entreprise comme un ensemble d'équipes ayant
 8/2/19 et 10/2/19
 Rempli et présenté le lean canvas de MobiliSCO web
 Démarré lecture de Running Lean
+Le lean : faire des choix d'autant moins éclairés qu'ils sont réversibles.  
+
+16/2/19
+- Premières user stories dans le backlog : rédigées plus en fonction de la version Access de MobiliSCO que du lean canvas.
+En fait, dans le vrai lean canvas la cohorte à convaincre, c'est moi !
+- J'affine l'objectif du programme infusion, concernant l'apprentissage du code :   
+Savoir commencer des itérations et les faire avancer suffisamment pour obtenir de l'aide pour les finir.   
+Etre en capacité d'adapter dans MobiliSCO le code des fonctionnalités de DossierSCO (création de comptes établissement et agents, import de SIECLE)  
+
+
 
 
