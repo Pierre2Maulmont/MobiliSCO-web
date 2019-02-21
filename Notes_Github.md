@@ -123,3 +123,15 @@ Une fois vos modifications envoyées sur votre fork GitHub, il vous reste à tra
 Vous remarquerez que sous votre message, GitHub propose un comparatif détaillé de vos modifications par rapport au projet auquel vous souhaitez contribuer. 
 Une fois votre pull request envoyée, l'auteur du projet consultera vos propositions, et vous recevrez une notification par GitHub lorsqu'il/elle les aura intégrées ou refusées. Il se peut aussi qu'il/elle vous contacte pour vous demander des précisions avant d'accepter ou non votre PR.
 
+## Conseils Yannick autour de la rédaction des commit
+
+- "modifié fichier.md" renseigne peu sur le changement effectué. "Ajouté un contact DNE" en dit plus. 
+- faire git pull AVANT git push
+- git pull --rebase
+- add . embarque tout 
+- git log --oneline : affiche le sha + le commit
+- git show n°duSha : (pour recopier le sha, bouton central souris !)
+Utilisation pour s'informer de l'activité et de décider d'entrer voir les modifications d'un seul sha
+
+
+
