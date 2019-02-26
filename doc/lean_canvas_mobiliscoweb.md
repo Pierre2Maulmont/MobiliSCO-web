@@ -18,12 +18,12 @@ Atteindre : les utilisateurs des autres produits Openacadémie
 - Je ne dispose pas d'outil pour exploiter les bases élèves et profs dans la gestion d'un voyage, autre que le tableur
 - je dois générer quantité de livrables (ordre de mission des profs accompagnateurs, lettre d'engagement des familles, arrêté de régie...)
 
-### Irritants partagés par tous
-je dois encaisser les participations des familles dans un logiciel comptable d'ancienne génération, ayant des capacités d'import de données limitées
+### Irritant partagé par tous : saisie en doublon des encaissements
+Obligation d'encaisser les participations des familles dans un logiciel comptable d'ancienne génération (GFC), ayant des capacités d'import de données limitées et ne permettant pas de faire de reporting. MobiliSCO Access permet le reporting mais au prix d'une double saisie (GFC et Access) 
 
 ### Existing alternatives
 - MobiliSCO Access, mais frictions existent : 
-C'est un logiciel payant ; une version gratuite run-time existe, mais elle est mal maitrisée par concepteurs. 
+C'est un logiciel payant ; une version gratuite run-time existe, mais elle est mal maitrisée par les concepteurs. 
 Les versions d'Access des clients perturbent les primo-utilisateurs et le support.
 L'importation semi-automatisée des bases élèves par l'utilisateur freine la conversion.
 Le support répond de façon aléatoire (entraide par la communauté sur un site professionnel)
@@ -47,7 +47,7 @@ Adresser les problèmes en faisant mieux que les altervatives
 L'outil doit :
     - éditer tous les documents administratifs et comptables, de manière automatisée, avec des données à jour.
     - assister la préparation et l'exécution budgétaire
-    - aider à l'encaissement des participations des familles
+    - faciliter l'encaissement des participations des familles
 
 ## Channels
 - Les Open lab des early adopters de MobiliSCO Access
