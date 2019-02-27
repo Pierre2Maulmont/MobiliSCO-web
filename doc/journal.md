@@ -179,6 +179,12 @@ En fait, dans le vrai lean canvas la cohorte à convaincre, c'est moi !
 Savoir commencer des itérations et les faire avancer suffisamment pour obtenir de l'aide pour les finir.   
 Etre en capacité d'adapter dans MobiliSCO le code des fonctionnalités de DossierSCO (création de comptes établissement et agents, import de SIECLE)  
 
-
-
+26/2/19
+- Ajout important relatif au problème à résoudre : la saisie en doublon des encaissements, jamais résolue par MobiliSCO Access. C'est la fonctionnalité qui fera la différence, quel que soit la cohorte !
+- Relecture des étapes de lean startup :
+Stage 1: Problem/Solution Fit. Key question: Do I have a problem worth solving?
+The minimum feature set to address the right set of problems, which is also known as the minimum viable product (MVP)
+Stage 2: Product/Market Fit. Key question: Have I built something people want?
+Stage 3: Scale
+Pivot Before Product/Market Fit, Optimize After
 
