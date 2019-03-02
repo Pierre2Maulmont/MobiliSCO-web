@@ -1,0 +1,16 @@
+<meta charset=utf8>
+<body></body>
+
+
+<script>
+    EPLE = [
+        {'nom': 'ARAGO', 'UAI': '0750680G', 'latitude': 'x', 'longitude' : 'y'},
+        {'nom': 'La GARRIGUETTE', 'UAI': '030', 'latitude': 'a', 'longitude' : 'b'}
+    ]
+
+    write = (msg) => document.write(`<strong>${msg}</strong> <br>`)
+
+    displayEPLEwithUAI = (etablissements) => etablissements.map(etablissement => write(`EPLE : ${etablissement.nom} - UAI : ${etablissement.UAI}`))
+    
+    displayEPLEwithUAI(EPLE)
+</script>
