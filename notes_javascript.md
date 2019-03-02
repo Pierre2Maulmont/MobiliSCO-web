@@ -1,33 +1,35 @@
 # Notes sur Javascript
 
-## Généralités
+## 1) Généralités
 
 
 Stéphane : métaphore de la terrasse (client en salle versus serveur en cuisine). Coté client, c'est toujours du JS.
 Margot : sans JS, une page web HTML et CSS est statique ; dès que l'utilisateur peut interagir avec la page, il y a du code JS.
 2ème intérêt de JS : pas de requete sur le serveur pour tout recharger ; le code JS est sur la page (ex: bouton à cliquer pour augmenter la police, switcher en anglais)
 
-console dans le navigateur firefox : ctrl+maj+k
+### Pour approcher le code d'une page web : console dans le navigateur firefox
+
+ctrl+maj+k
 clic droit, examiner élément : donne accès à l'élément dans Inspecteur
 Inversement : survol d'une ligne dans Inspecteur met en surbrillance l'élément dans la page web
 
-
-
+### Pour documenter JS
 https://developer.mozilla.org/fr/
 MDN = Mozilla developer network
 
+### Pour collaborer sur Visual studio code (VSC): Visual Studio Live Share
+Dans VSC, l'icone Extensions (ou CTRL MAJ X)
 
-
+### Autres 
 Installer Node sur console pour écrire sur le serveur ???
 REPL: du code en ligne ???
 
-#### Objet, méthode, propriété
+### Objet, méthode, propriété
 
 Objet.méthode = une action à exécuter (ex: voiture.accélérer)
 Objet.propriété = une valeur à renvoyer (ex: voiture.couleur)
 
-
-- __Objet Document :__
+- __Objet Document__ sur MDN :
 
 L'interface Document représente n'importe quelle page Web chargée dans le navigateur et sert de point d'entrée dans le contenu de la page Web, qui est l'arborescence DOM. L'arborescence DOM inclut des éléments tels que <body> (corps) et <table> (tableau), parmi beaucoup d'autres. Il fournit des fonctionnalités globales au document, comme le moyen d'obtenir l'URL de la page et de créer de nouveaux éléments dans le document.
 
@@ -39,27 +41,87 @@ Dans Console, je peux trouver un élément et le survoler dans la page, avec :
 MonHeader = document.querySelector('header')
 
 
-### Tableau et boucle.map
+## 2) Jouer avec la console web de Firefox
+
+### Créer un tableau et une boucle.map
 
 countries = ['france', 'italie', 'kurdistan']
 countries.map(country => 'Pierre est allé en ' + country.toUpperCase())
-Array(3) [ "Pierre est allé en FRANCE", "Pierre est allé en ITALIE", "Pierre est allé en KURDISTAN" ]
+Le résultat : Array(3) [ "Pierre est allé en FRANCE", "Pierre est allé en ITALIE", "Pierre est allé en KURDISTAN" ]
 
 ['france', 'italie', 'kurdistan'].map(country => country.toUpperCase())
 
-### Créer une fonction dans la console web de firefox
-CalculTTC = (HT) => HT * 1.2
+- __Array.prototype.map()__ sur MDN :
+La méthode map() crée un nouveau tableau avec les résultats de l'appel d'une fonction fournie sur chaque élément du tableau appelant.
 
-résultat :
-calculTTC(100) 				120
+var array1 = [1, 4, 9, 16];
+
+// pass a function to map
+const map1 = array1.map(x => x * 2);
+
+console.log(map1);
+// expected output: Array [2, 8, 18, 32]
+
+
+### Créer des fonctions
+CalculTTC = (HT) => HT * 1.2
+calculTTC(100) 	      résultat : 	120
 
 HT = 500
-calculTTC(HT)				600	
+calculTTC(HT)		résultat :		600	
+
+Attention = (msg) => alert('Attention : ' + msg)
+
+## 3) L'ardoise JavaScript de Firefox + la console
+
+Firefox, Ouvrir le menu, development web, ardoise JavaScript
+Ecrire du code, puis Menu/Exécuter : voir le résultat sur la console (CTRL MAJ K)
+
+- __méthode console.log__ sur MDN : Affiche un message dans la Console Web
+console.log('coucou')
+console.log('calcul de tva :', 100*1.2)
+
+countries = ['France', 'Espagne', 'Italie']
+countries.map(country => console.log('Pays', country))
+
+france = {'capitale': 'Paris', 'population': 66}
+espagne = {'capitale': 'Madrid', 'population': 46}
+console.log('population fr:', france.population)
+console.log('population es:', espagne.population)
+
+countries = [{'nom': 'France', 'population': 66}, {'nom': 'Espagne', 'population': 46}]
+countries.map(country => console.log('Pays :' + country.nom))
 
 
 
+countries = [
 
+ {'nom': 'France', 'population': 66},
 
-redAlert = () => alert('RED-ALERT')
+ {'nom': 'Italie', 'population': 54},
 
-redAlert = (msg) => alert('RED-ALERT:' + msg)
+ {'nom': 'Espagne', 'population': 46}
+
+]
+
+countries.map(country => console.log(`Pays : ${country.nom} - Population : ${country.population}`))
+
+write = (msg) => console.log(msg)
+
+write = (msg) => console.log(msg)
+
+displayCountriesWithPopulation = (countries) => countries.map(country => write(`Pays : ${country.nom} - Population : ${country.population}`))/*
+
+* My program
+
+*/
+
+europe = [
+
+ {'nom': 'France', 'population': 66},
+
+ {'nom': 'Italie', 'population': 54},
+
+ {'nom': 'Espagne', 'population': 46}
+
+]displayCountriesWithPopulation(europe)
