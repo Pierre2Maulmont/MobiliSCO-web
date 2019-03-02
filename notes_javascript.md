@@ -84,32 +84,28 @@ console.log('calcul de tva :', 100*1.2)
 countries = ['France', 'Espagne', 'Italie']
 countries.map(country => console.log('Pays', country))
 
+- __Objet : {}__
 france = {'capitale': 'Paris', 'population': 66}
 espagne = {'capitale': 'Madrid', 'population': 46}
 console.log('population fr:', france.population)
 console.log('population es:', espagne.population)
 
+- __tableau et {}__
 countries = [{'nom': 'France', 'population': 66}, {'nom': 'Espagne', 'population': 46}]
 countries.map(country => console.log('Pays :' + country.nom))
 
-
+- __back quotes ``__ (AltGr 7) et __${}__
 
 countries = [
-
  {'nom': 'France', 'population': 66},
-
  {'nom': 'Italie', 'population': 54},
-
  {'nom': 'Espagne', 'population': 46}
-
 ]
 
 countries.map(country => console.log(`Pays : ${country.nom} - Population : ${country.population}`))
 
+- Avec une fonction qui exécute console.log et .map :
 write = (msg) => console.log(msg)
-
-write = (msg) => console.log(msg)
-
 displayCountriesWithPopulation = (countries) => countries.map(country => write(`Pays : ${country.nom} - Population : ${country.population}`))/*
 
 * My program
