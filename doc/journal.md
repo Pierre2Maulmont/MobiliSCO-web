@@ -180,7 +180,7 @@ Savoir commencer des itérations et les faire avancer suffisamment pour obtenir 
 Etre en capacité d'adapter dans MobiliSCO le code des fonctionnalités de DossierSCO (création de comptes établissement et agents, import de SIECLE)  
 
 26/2/19
-- Ajout important relatif au problème à résoudre : la saisie en doublon des encaissements, jamais résolue par MobiliSCO Access. C'est la fonctionnalité qui fera la différence, quel que soit la cohorte !
+- Ajout important relatif au problème à résoudre : la saisie en doublon des encaissements, jamais résolue par MobiliSCO Access. __Problème commun à toutes les cohortes__. Doublon créé par Access, pour permettre l'édition d'un tableau de synthèse des encaissements très utile. 
 - Relecture des étapes de lean startup :
 Stage 1: Problem/Solution Fit. Key question: Do I have a problem worth solving?
 The minimum feature set to address the right set of problems, which is also known as the minimum viable product (MVP)
@@ -188,3 +188,13 @@ Stage 2: Product/Market Fit. Key question: Have I built something people want?
 Stage 3: Scale
 Pivot Before Product/Market Fit, Optimize After
 
+03/03/19
+- J'alimente le journal en vue de la démo de fin de sprint
+- __Premiers pas sur JavaScript__
+Ouvert un fichier notes_javascript.md
+Utilisé la __console web__ de Firefox
+Utilisé __l'ardoise__ JavaScript de Firefox + la console web
+Installé __Visual Studio live share__, pour partager à distance l'éditeur de code
+Appris à __documenter__ à partir de Mozilla Developer network
+- Refait mes gammes sur deux __fonctions enchâssées__ affichant sur la console des EPLE, avec noms, UAI, latitude et longitude. 
+Utilisé les méthodes console.log, construit des tableaux, utilisé la boucle .map

@@ -24,7 +24,7 @@ Dans VSC, l'icone Extensions (ou CTRL MAJ X)
 Installer Node sur console pour écrire sur le serveur ???
 REPL: du code en ligne ???
 
-### Objet, méthode, propriété
+### Objet, méthode, propriété, fonction
 
 Objet.méthode = une action à exécuter (ex: voiture.accélérer)
 Objet.propriété = une valeur à renvoyer (ex: voiture.couleur)
@@ -40,6 +40,7 @@ var el = document.querySelector(".maclasse");
 Dans Console, je peux trouver un élément et le survoler dans la page, avec :
 MonHeader = document.querySelector('header')
 
+- __Fonction__ : méthode non attachée à un objet
 
 ## 2) Jouer avec la console web de Firefox
 
@@ -97,27 +98,47 @@ countries.map(country => console.log('Pays :' + country.nom))
 - __back quotes ``__ (AltGr 7) et __${}__
 
 countries = [
- {'nom': 'France', 'population': 66},
- {'nom': 'Italie', 'population': 54},
+ {'nom': 'France', 'population': 67},
+ {'nom': 'Italie', 'population': 60},
  {'nom': 'Espagne', 'population': 46}
 ]
 
 countries.map(country => console.log(`Pays : ${country.nom} - Population : ${country.population}`))
 
-- Avec une fonction qui exécute console.log et .map :
+- __Avec une fonction qui exécute console.log et .map :__
 write = (msg) => console.log(msg)
-displayCountriesWithPopulation = (countries) => countries.map(country => write(`Pays : ${country.nom} - Population : ${country.population}`))/*
+displayCountriesWithPopulation = (countries) => countries.map(country => write(`Pays : ${country.nom} - Population : ${country.population}`))
 
-* My program
-
+/*
+* My program 
 */
 
 europe = [
-
- {'nom': 'France', 'population': 66},
-
- {'nom': 'Italie', 'population': 54},
-
+ {'nom': 'France', 'population': 67},
+ {'nom': 'Italie', 'population': 60},
  {'nom': 'Espagne', 'population': 46}
+]
 
-]displayCountriesWithPopulation(europe)
+displayCountriesWithPopulation(europe)
+
+- __Exercice avec données des Etablissements publics locaux d'enseignement__ :
+
+write = (msg) => console.log(msg)
+displayEpleComplet = (EPLE) => EPLE.map(etab => write(`Nom_EPLE : ${etab.nom} - Numéro_UAI : ${etab.UAI} - Latitude : ${etab.latitude} - Longitude : ${etab.longitude}`))
+
+EPLE = [  
+ {'nom': 'ARAGO', 'UAI': '0750680G', 'latitude': '48.847936', 'longitude' : '2.394438'},    
+ {'nom': 'La GARRIGUETTE', 'UAI': '0300050S', 'latitude': '43.7477966', 'longitude' : '4.2245153'},
+ {'nom': 'Boris VIAN', 'UAI': '0140070A', 'latitude': '49.0759528', 'longitude' : '-0.0794074'}
+ ]
+displayEpleComplet(EPLE)
+
+--------------------------------
+EPLEbis = [
+ {'nom': 'Germaine TILLION', 'UAI': '0753936W', 'latitude': '48.8428924', 'longitude' : '2.4115478'},    
+ {'nom': 'André MALRAUX', 'UAI': '0752387M', 'latitude': '48.879049', 'longitude' : '2.290916'},
+
+ ]
+displayEpleComplet(EPLEbis)
+
+## 3) Avec un fichier.html
