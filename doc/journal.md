@@ -198,3 +198,6 @@ Installé __Visual Studio live share__, pour partager à distance l'éditeur de 
 Appris à __documenter__ à partir de Mozilla Developer network
 - Refait mes gammes sur deux __fonctions enchâssées__ affichant sur la console des EPLE, avec noms, UAI, latitude et longitude. 
 Utilisé les méthodes console.log, construit des tableaux, utilisé la boucle .map
+
+VSC : cloner un repository Git
+Menu Affichage, palette de commande, Git clone, copier-coller URL du repo d'origine
