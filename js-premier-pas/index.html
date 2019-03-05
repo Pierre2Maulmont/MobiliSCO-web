@@ -9,9 +9,10 @@
  {'nom': 'Boris VIAN', 'UAI': '0140070A', 'latitude': '49.0759528', 'longitude' : '-0.0794074'}
  ]
 
-    write = (msg) => document.write(`<strong>${msg}</strong> <br>`)
+    write = (msg) => document.write(`<ul><li><strong><em>${msg}</em></strong> </li></ul><br>`)
 
-    displayEPLEwithUAI = (etablissements) => etablissements.map(etablissement => write(`EPLE : ${etablissement.nom} - UAI : ${etablissement.UAI}`))
+    displayEPLEwithUAI = (etablissements) => etablissements.map(etablissement => 
+    write(`EPLE : ${etablissement.nom} - UAI : ${etablissement.UAI} - UAI : ${etablissement.latitude} - UAI : ${etablissement.longitude}`))
     
     displayEPLEwithUAI(EPLE)
 </script>
