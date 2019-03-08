@@ -8,8 +8,7 @@ On a refait sur VSC ce qu'on fait avec console/terminal
 On a modifié sur VSC, pushé sur github, modifié sur Github, pullé
 Différencié git (local) et github (distant, interface web collaborative)
 sauvegardé (CRTL S)
-repéré icone de Source control - le graph avec branches (invitation à commiter). Message du commit CRLT ENTER pour commiter
-icone en bas avec flèches montante/descendante (invitation à pusher)
+On a commité.
 
 Notion de cohortes, à interroger pour valider les prédictions et paris. 3 caractéristiques :
 - pas trop grandes
@@ -199,5 +198,10 @@ Appris à __documenter__ à partir de Mozilla Developer network
 - Refait mes gammes sur deux __fonctions enchâssées__ affichant sur la console des EPLE, avec noms, UAI, latitude et longitude. 
 Utilisé les méthodes console.log, construit des tableaux, utilisé la boucle .map
 
+5/3/19
+- Utilisé VSC et fichier .html sur firefox avec du js 
+- Modifié mise en page html et fonction js
 VSC : cloner un repository Git
 Menu Affichage, palette de commande, Git clone, copier-coller URL du repo d'origine
+
+- Essayé de __cloner sous VSC__ : Affichage, Palette de commandes (CTRL MAJ P), Git cloner 
