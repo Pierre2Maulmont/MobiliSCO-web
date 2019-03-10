@@ -1,5 +1,38 @@
 # Notes sur Lean startup
 
+
+## Backlog et userstories
+
+Notion de cohortes, à interroger pour valider les prédictions et paris. 3 caractéristiques :
+- pas trop grandes
+- pas trop hétérogènes
+- atteignables
+
+Caractère isofonctionnel d'une application : fonctionnalités à reproduire sans discussion 
+Construire un backlog : https://www.jpattonassociates.com/the-new-backlog/
+
+### user story : 3 C
+_Carte_ (permet de lancer la conversation, sans spécifier, exprimer le besoin minimum),  
+_Conversation_,   
+_Confirmation_ (les cases-à-cocher : doit faire ceci, ne doit pas faire cela)
+use case ; on a fait le deuil de spécifier
+
+### granularité des user stories
+odyssée, epic (qq mois)
+feature (qq semaines)
+user story (qq jours) User activity
+tâche (qq heures) user task
+
+Quelles que soient les ressources (nombre de dèeloppeurs, compétences), une user story fera toujours quelques jours. C'est un horizon d'action.
+"Build the map in a way that helps you tell the story."
+
+
+
+
+
+Agile Product Ownership in a Nutshell
+https://www.youtube.com/watch?v=502ILHjX9EE
+
 Focus sur le business model (modède d'entreprise), plus que sur le business plan (plan d'affaires : exécution concrète) ?
 
 lu sur wikipedia :
@@ -29,3 +62,16 @@ Stage 2: Product/Market Fit. Key question: Have I built something people want?
 Stage 3: Scale
 Pivot Before Product/Market Fit, Optimize After
 
+## Démo de fin de sprint zéro
+Objet : échange avec les stakeholders
+montrer l'incrément, consolidé durant le sprint.
+Programmer la release suivante  
+
+## Rétro de fin de sprint zéro (manifeste agile)
+
+__5 phases__
+1) Ambiance du sprint : 
+2) Bien passé : séparer les faits et la discussion, par une simple revue des faits
+3) Frottements 
+4) Actions correctrices :
+5) Rétro de la rétro : 
