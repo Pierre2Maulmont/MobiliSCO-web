@@ -148,11 +148,19 @@ Le # sur l'URL : c'est le signe du front side routing. Pas de nouvelle requete a
 
 ## 5) La séparation des responsabilités
 
-Au lieu d'intercaler du js dans un fichier html :
+- Au lieu d'intercaler du js dans un fichier html :
 <script>
     // code js
 </script>
 On renvoie à un autre fichier contenant du JS :
 <script src="script.js"></script>
 
-Le DOM se charge moins vite que l'exécution du code JS et génère une erreur. Pour attendre la fin du chargement : document.addEventListener
+- Le DOM se charge moins vite que l'exécution du code JS et génère une erreur. Pour attendre la fin du chargement : document.addEventListener
+Ex: document.addEventListener('DOMContentLoaded', event => {document.querySelector()
+})
+
+La méthode addEventListener() d'EventTarget met en place une fonction à appeler (event ?),chaque fois que l'événement spécifié (DOMContentLoaded) est remis à la cible (ici : le Document)
+Syntaxe : target.addEventListener(type, listener[, options]);
+Paramètres :
+    type : une chaîne représentant le type d'évènement à écouter.
+    listener : l'objet qui recevra une notification (un objet qui implémente l'interface Event) lorsqu'un évènement du type spécifié se produit. Il doit s'agir d'un objet implémentant l'interface EventListener ou une fonction JavaScript.
