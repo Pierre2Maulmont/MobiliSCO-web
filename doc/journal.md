@@ -2,7 +2,7 @@
 
 21/1/18
 
-## Visual studio code  
+## Premiers pas sur Visual studio code  
     
 On a refait sur VSC ce qu'on fait avec console/terminal
 On a modifié sur VSC, pushé sur github, modifié sur Github, pullé
@@ -10,58 +10,20 @@ Différencié git (local) et github (distant, interface web collaborative)
 sauvegardé (CRTL S)
 On a commité.
 
-Notion de cohortes, à interroger pour valider les prédictions et paris. 3 caractéristiques :
-- pas trop grandes
-- pas trop hétérogènes
-- atteignables
-
-Caractère isofonctionnel d'une application : fonctionnalités à reproduire sans discussion
-
-## Backlog et userstories
-
-Construire un backlog : https://www.jpattonassociates.com/the-new-backlog/
-
-### user story : 3 C
-_Carte_ (permet de lancer la conversation, sans spécifier, exprimer le besoin minimum),  
-_Conversation_,   
-_Confirmation_ (les cases-à-cocher : doit faire ceci, ne doit pas faire cela)
-use case ; on a fait le deuil de spécifier
-
-### granularité des user stories
-odyssée, epic (qq mois)
-feature (qq semaines)
-user story (qq jours) User activity
-tâche (qq heures) user task
-
-Quelles que soient les ressources (nombre de dèeloppeurs, compétences), une user story fera toujours quelques jours. C'est un horizon d'action.
-"Build the map in a way that helps you tell the story."
-
-
-
-
-
-Agile Product Ownership in a Nutshell
-https://www.youtube.com/watch?v=502ILHjX9EE
-
-## Choix du langage : 
+## Choisir un langage : 
 - Langage Objet (impératifs) -> effets de bord
 "un paradigme de programmation qui décrit les opérations en séquences d'instructions exécutées par l'ordinateur pour modifier l'état du programme."
 - langages fonctionnels minimisent les effets de bord. 
 Comme le changement d'état et la mutation des données ne peuvent pas être représentés par des évaluations de fonctions, la programmation fonctionnelle ne les admet pas, au contraire elle met en avant l'application des fonctions, contrairement au modèle de programmation impérative qui met en avant les changements d'état
 ex:    C, C++, Python, PHP, Java, JavaScript
 
-## Github 
-- je perçois mieux le sens de la commande ADD.
-Image de l'antichambre, de la loge du coursier entre deux bâtiments. 
-ADD permet de committer ensuite une partie seulement du travail effectué, et de rendre ses commits homogènes, compréhensibles pour autrui et pour soi plus tard
-- le fichier caché.git
+## Gammes sur Git, avec la console
 
 24/1/19
 
 - relu et commenté le journal, le readme, les questions
 - exercice : commiter séparément ces différents docs mis à jour.
 Depuis la console : ADD, puis COMMIT
-Mais depuis VSC ?
 
 26/1/19
 
@@ -107,14 +69,8 @@ fatal: Not a git repository (or any of the parent directories): .git_
 
 2/2/19  
 
-## Démo de fin de sprint zéro
-Objet : échange avec les stakeholders
-montrer l'incrément, consolidé durant le sprint.
-Programmer la release suivante  
+## Premières démo et rétro de fin de sprint
 
-## Rétro de fin de sprint zéro (manifeste agile)
-
-__5 phases__
 1) Ambiance du sprint : enthousiasme partagé
 - Je trouve le format adapté (13h hebdo)
 - Plus progressé sur git que les 8 derniers mois
@@ -145,31 +101,12 @@ Rien à puller, 2 à pusher.
 
 5/2/19
 Abordé notions générales sur le lean start up
-Focus sur le business model (modède d'entreprise), plus que sur le business plan (plan d'affaires : exécution concrète) ?
-
-lu sur wikipedia :
-- __Eric RIES__, _"The Lean Startup: How Today's Entrepreneurs Use **Continuous Innovation** to Create Radically Successful Businesses"_ 2008
-Analyse des échecs de ses deux entreprises : _"elle partait d'une technologie, au lieu de la développer à partir des besoins à satisfaire"_
-- __Ash MAURYA, ""Running Lean: How to Iterate from Plan A to a plan that works"__ a développé le lean canvas, liste de neuf questions pour tester l'adéquation du produit au marché
-- __Steve BLANK, "The Four Steps to the Epiphany"__ : customer developpement
-"Get out of the building"
-Most of the answers lie outside the building — not on your computer, or in
-the lab. You have to get out and directly engage customers.
-- __Définition du pivot__ : dans le processus d'apprentissage par itérations, une startup peut découvrir par des retours terrain avec de vrais clients que son produit n'est pas adapté, qu'il ne répond pas à un besoin. Toutefois, pendant ce processus d'apprentissage, il se peut que la startup ait identifié un autre besoin (souvent connexe au premier produit). Lorsque la startup change de produit pour répondre à ce nouveau besoin identifié, on dit qu'elle a effectué un « Pivot ». 
-
-- __Antagonisme des équipes dèv et ops__
-l'objectif principal d'une équipe ops est de garantir la stabilité du système. De ce fait, l'équipe se concentre sur la contrainte qualité, au détriment du temps et du coût. La meilleure manière d'atteindre son objectif est de contrôler sévèrement la qualité des changements qui sont apportés au système qu'elle maintient.
-
-De son côté, l'équipe de développement a pour objectif principal d'apporter les changements nécessaires au moindre coût et le plus vite possible, souvent au détriment de la qualité lorsque des retards viennent mettre le plan en péril.
-
-L'antagonisme de ces objectifs, intrinsèques à l'activité de chaque type d'équipe, est encore exacerbé par la séparation des devoirs, au point de conduire à un rejet de sa propre responsabilité et au blâme de l'équipe « sœur », l'équipe de développement blâmant son alter ego ops pour les retards, et l'équipe d'exploitation tenant l'équipe de développement responsable des problèmes de qualité du code et des incidents survenus en production de ce fait.
-
-Plus généralement, organiser une entreprise comme un ensemble d'équipes ayant des objectifs indépendants les uns des autres avec des indicateurs spécifiques à chaque équipe va __générer des optimums locaux__ et des guerres entre équipes,
 
 8/2/19 et 10/2/19
 Rempli et présenté le lean canvas de MobiliSCO web
 Démarré lecture de Running Lean
-Le lean : faire des choix d'autant moins éclairés qu'ils sont réversibles.  
+Le lean : faire des choix d'autant moins éclairés qu'ils sont réversibles.
+L'image des bords tirés à travers l'océan : on peut revenir facilement sur un mauvais cap si on l'évalue 24h après que si on navigue une semaine entière.
 
 16/2/19
 - Premières user stories dans le backlog : rédigées plus en fonction de la version Access de MobiliSCO que du lean canvas.
@@ -179,13 +116,7 @@ Savoir commencer des itérations et les faire avancer suffisamment pour obtenir 
 Etre en capacité d'adapter dans MobiliSCO le code des fonctionnalités de DossierSCO (création de comptes établissement et agents, import de SIECLE)  
 
 26/2/19
-- Ajout important relatif au problème à résoudre : la saisie en doublon des encaissements, jamais résolue par MobiliSCO Access. __Problème commun à toutes les cohortes__. Doublon créé par Access, pour permettre l'édition d'un tableau de synthèse des encaissements très utile. 
-- Relecture des étapes de lean startup :
-Stage 1: Problem/Solution Fit. Key question: Do I have a problem worth solving?
-The minimum feature set to address the right set of problems, which is also known as the minimum viable product (MVP)
-Stage 2: Product/Market Fit. Key question: Have I built something people want?
-Stage 3: Scale
-Pivot Before Product/Market Fit, Optimize After
+- Ajout important dans le lean canvas, concernant le problème à résoudre : la saisie en doublon des encaissements, jamais résolue par MobiliSCO Access. __Problème commun à toutes les cohortes__. Doublon créé par Access, pour permettre l'édition d'un tableau de synthèse des encaissements très utile. 
 
 03/03/19
 - J'alimente le journal en vue de la démo de fin de sprint
@@ -199,9 +130,49 @@ Appris à __documenter__ à partir de Mozilla Developer network
 Utilisé les méthodes console.log, construit des tableaux, utilisé la boucle .map
 
 5/3/19
-- Utilisé VSC et fichier .html sur firefox avec du js 
+- Utilisé VSC et fichier html sur firefox avec du js 
 - Modifié mise en page html et fonction js
-VSC : cloner un repository Git
-Menu Affichage, palette de commande, Git clone, copier-coller URL du repo d'origine
+- Cloné sous VSC
 
-- Essayé de __cloner sous VSC__ : Affichage, Palette de commandes (CTRL MAJ P), Git cloner 
+9/3/19
+- Pull request sur Open carte comptable
+- Add et commit depuis VSC
+- séparé du code dans deux fichiers.js et .html différents
+- cherché et trouvé du texte dans le code du github du blog de beta.gouv
+
+10/3/19
+
+## Préparation de la démo de fin de sprint
+PR Open carte comptable
+exécution de 2 fichiers html et js en local
+
+
+## Préparation de la rétro de fin de sprint 0.2 (manifeste agile)
+
+1) Ambiance du sprint : la tendance hors les faits
+joie des premiers pas sur JS
+Pressions extérieures au sprint qui perturbent l'adéquation entre objectif et moyens que je me suis fixés initialement.
+
+Infusion progressive de la représentation des postures d'apprenant/coach
+
+2) Bien passé : revue des faits, sans discussion
+- Approfondi les outils VSC, git, github, console web
+- surmonté le vertige du changement d'outils, de vues
+- je construis progressivement l'autonomie dans l'apprentissage de JS (MDN, coaching de Stéphane, livre de Thomas, interactions avec les autres dèv de l'entourage)
+- j'articule mieux Quotidienne - Journal - Documentation technique
+- satisfaction sur les premiers pas en JS : j'ai le sentiment d'écrire du code, même quand je recopie celui du coach
+
+3) Frottements 
+- toujours peu utilisé au quotidien le project de Github, comme incitation à agir, avec l'apprentissage du code JS.
+Timidité à créer une userstory car elles ont la taille modeste d'une tâche mais qui me prend plusieurs séquences de travail
+- Crainte de lasser le coach par mon besoin de faire répéter pour assimiler les commandes de base
+- Difficulté à tenir la capacité fixée préalablement. Je reporte fréquemment nos rendez-vous
+- Je suis impatient de pouvoir écrire du code utile pour MobiliSCO
+
+
+4) Actions correctrices : 
+- Ne pas baisser la capacité, au risque de perdre le sens
+Prévoir mieux et prévenir sur les reports et déculpabiliser
+- Apercevoir le code futur de MobiliSCO dans l'apprentissage des briques de base
+
+5) Rétro de la rétro : 
