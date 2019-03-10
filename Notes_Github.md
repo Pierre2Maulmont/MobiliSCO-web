@@ -134,5 +134,7 @@ Une fois votre pull request envoyée, l'auteure du projet voit sur son Github : 
 - __git show n°duSha__ : (pour recopier le sha, bouton central souris !)
 Utilisation pour s'informer de l'activité et de décider d'entrer voir les modifications d'un seul sha
 
-
+## Erreurs
+403 : pas de droits pour agir
+404 : page introuvable
 

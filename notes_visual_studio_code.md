@@ -28,7 +28,7 @@ A : index ajouté
 2) à partir du repo forké de mon github, copie de l'URL du repo et Affichage, Palette de commandes, saisir cloner
 message de fin de clonage: voulez-vous ouvrir le dépôt cloné ou l'ajouter à votre espace de travail ???
 3) Sur console git, créer une branche, en local : git checkout -b Ma_branche sur console
-Sur VSC : Affichage, Palettte, branche
+Sur VSC : Affichage, Palettte, branche 
 - Modifier le Readme sur VSC
 [lien hyper texte](URL)
 4) git push origin modifier_le_readme
@@ -38,3 +38,4 @@ Sur VSC : Affichage, Palettte, branche
     fatal: unable to access 'https://github.com/MargotDem/opencartecomptable.git/': The requested URL returned error: 403
 5) pull request sur mon github
 6) Merge sur github de l'auteure
+7) Pas de besoin sur mon github : le merge a fait disparaitre chez moi la branche de feature
