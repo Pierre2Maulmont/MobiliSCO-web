@@ -141,4 +141,18 @@ EPLEbis = [
  ]
 displayEpleComplet(EPLEbis)
 
-## 3) Avec un fichier.html
+## 4) Avec un fichier.html contenant du JS
+
+
+Le # sur l'URL : c'est le signe du front side routing. Pas de nouvelle requete au serveur, même si on modifie l'URL. C'est seulement une librairie qui s'occupe de montrer l'autre page, déjà envoyée par la requet initiale mais non affichée
+
+## 5) La séparation des responsabilités
+
+Au lieu d'intercaler du js dans un fichier html :
+<script>
+    // code js
+</script>
+On renvoie à un autre fichier contenant du JS :
+<script src="script.js"></script>
+
+Le DOM se charge moins vite que l'exécution du code JS et génère une erreur. Pour attendre la fin du chargement : document.addEventListener
