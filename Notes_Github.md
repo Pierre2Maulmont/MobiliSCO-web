@@ -68,7 +68,7 @@ __git clone URL__
 ## le REMOTE : 
 l’espace distant ou je stocke le code, par sécurité et pour le rendre visible
 
-__git push origin master : __après avoir créé un repository sur github avec un readme, on modifie le fichier readme sur la console git bash. on se place dans le repository (cd), on regarde ce qu’il y a dedans (ls), on l’ajoute à l’index git (git add), on vérifie (git status).
+__git push origin master :__ après avoir créé un repository sur github avec un readme, on modifie le fichier readme sur la console git bash. on se place dans le repository (cd), on regarde ce qu’il y a dedans (ls), on l’ajoute à l’index git (git add), on vérifie (git status).
 on affiche le contenu du fichier (cat readme.md). On le modifie dans l’éditeur Sublim text, on le push depuis la machine locale vers le remote (origin) et sa branche (master)
 
 __git pull origin master :__ quelqu'un a modifié le fichier README.md, depuis github (icone stylo) et a commité. Je voudrais bien faire descendre cette seule modif sur ma machine locale, sans récupérer l’ensemble du repo (git clone)
@@ -77,7 +77,7 @@ __git pull origin master :__ quelqu'un a modifié le fichier README.md, depuis g
 __git branch :__ indique le nom de la branche (par défaut, à la création d’un repository par git init, Git créé une branche qu’il appelle master) sur laquelle on est (l’étoile)
 git branch NomBranche : créé une nouvelle branche. 
 __git checkout NomBranche :__ on change de branche
-git checkout -b : pour créer une branche et vous y positionner. Ainsi, au lieu de taper git branch ma-branche, puis git checkout ma-branche, vous pouvez regrouper ces deux opérations en une seule commande : git checkout -b ma-branche
+git checkout -b : pour créer une branche et vous y positionner. Ainsi, au lieu de taper git branch ma-branche, puis git checkout ma-branche, vous pouvez regrouper ces deux opérations en une seule commande : __git checkout -b ma-branche__
 
 __git merge :__ git checkout brancheA, pour ajouter à A ce qu’on a fait dans B puis on utilise la commande : git merge brancheB (on merge B dans A)
 
@@ -101,36 +101,37 @@ git stash pop (attention ça supprime ce qu’il y a dans le stash !)
 
 Récupérer le code d'un projet open-source, faire mes modifications, les proposer à la personne en charge du projet  
 __pull request__
-step 1 : récupérer le repo
+### step 1 : récupérer le repo
 Bouton fork en haut à droite : copie le repository du projet sur lequel je veux contribuer sur mon compte github. Je vérifie ensuite que je suis bien sur mon compte (barre URL de github/P2maulmont).  
 Ensuite, bouton HTTPS clone URL, pour récupérer l’URL, puis git clone URL_du_projet.  
 ls (lister les fichiers du répertoire courant), pour vérifier que le projet est bien là. cd répertoire, pour se placer dedans ; git log, pour voir tous les commit du projet.
-step 2 : faites vos modifs
+### step 2 : faites vos modifs
 Avant tout, regarder dans la documentation (le README ou PULL REQUESTS, le plus souvent) le mode d’emploi des contribution (Contributing). Généralement, on y précise les formes attendues des contributions (syntaxe des commits, tests…).
 Sur votre machine, placez-vous dans le repo que vous venez de créer, créez une nouvelle branche où vous allez faire vos modifications et placez-vous dedans :
-git checkout -b my-new-feature
+__git checkout -b my-new-feature__
 
-
- Faites vos modifications dans la nouvelle branche et "committez"-les
+Faites vos modifications dans la nouvelle branche et "committez"-les
 
 Envoyez vos modifications sur GitHub en faisant un git push de votre nouvelle branche : 
-git push origin my-new-feature
+__git push origin my-new-feature__
 Notez que nous ne faisons pas un "git push origin master" : ce n'est pas votre branche principale "master" mais bien votre nouvelle branche "my-new-feature" que vous envoyez sur GitHub ! 
-step 3 : proposez vos modifs au projet
+
+### step 3 : proposez vos modifs au projet
 Une fois vos modifications envoyées sur votre fork GitHub, il vous reste à transmettre votre demande de modifications en faisant une pull request. Pour cela, placez-vous sur votre fork GitHub, sur votre nouvelle branche, et cliquez sur "Compare & pull request".
 
- Vous allez alors être amenés à rédiger un message pour présenter votre proposition de modifications à l'auteur du projet.
-Vous remarquerez que sous votre message, GitHub propose un comparatif détaillé de vos modifications par rapport au projet auquel vous souhaitez contribuer. 
-Une fois votre pull request envoyée, l'auteur du projet consultera vos propositions, et vous recevrez une notification par GitHub lorsqu'il/elle les aura intégrées ou refusées. Il se peut aussi qu'il/elle vous contacte pour vous demander des précisions avant d'accepter ou non votre PR.
+Vous allez alors être amenés à rédiger un message pour présenter votre proposition de modifications à l'auteur du projet.
+Vous remarquerez que sous votre message, GitHub propose un comparatif détaillé de vos modifications par rapport au projet auquel vous souhaitez contribuer ???
+
+Une fois votre pull request envoyée, l'auteure du projet voit sur son Github : pull request = 1. Elle consultera vos propositions, et vous recevrez une notification par GitHub lorsqu'elle les aura intégrées ou refusées. Il se peut aussi qu'elle vous contacte pour vous demander des précisions avant d'accepter ou non votre PR.
 
 ## Conseils Yannick autour de la rédaction des commit
 
 - "modifié fichier.md" renseigne peu sur le changement effectué. "Ajouté un contact DNE" en dit plus. 
 - faire git pull AVANT git push
 - git pull --rebase
-- add . embarque tout 
-- git log --oneline : affiche le sha + le commit
-- git show n°duSha : (pour recopier le sha, bouton central souris !)
+- ___add . embarque tout__
+- __git log --oneline__ : affiche le sha + le commit
+- __git show n°duSha__ : (pour recopier le sha, bouton central souris !)
 Utilisation pour s'informer de l'activité et de décider d'entrer voir les modifications d'un seul sha
 
 
