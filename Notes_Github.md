@@ -103,7 +103,8 @@ Récupérer le code d'un projet open-source, faire mes modifications, les propos
 __pull request__
 ### step 1 : récupérer le repo
 Bouton fork en haut à droite : copie le repository du projet sur lequel je veux contribuer sur mon compte github. Je vérifie ensuite que je suis bien sur mon compte (barre URL de github/P2maulmont).  
-Ensuite, bouton HTTPS clone URL, pour récupérer l’URL, puis git clone URL_du_projet.  
+Ensuite, bouton HTTPS clone URL, pour récupérer l’URL.
+Sur la console git, créer un repo et l'initialiser comme repo git, puis git clone URL_du_projet.  
 ls (lister les fichiers du répertoire courant), pour vérifier que le projet est bien là. cd répertoire, pour se placer dedans ; git log, pour voir tous les commit du projet.
 ### step 2 : faites vos modifs
 Avant tout, regarder dans la documentation (le README ou PULL REQUESTS, le plus souvent) le mode d’emploi des contribution (Contributing). Généralement, on y précise les formes attendues des contributions (syntaxe des commits, tests…).
@@ -128,7 +129,7 @@ Une fois votre pull request envoyée, l'auteure du projet voit sur son Github : 
 
 - "modifié fichier.md" renseigne peu sur le changement effectué. "Ajouté un contact DNE" en dit plus. 
 - faire git pull AVANT git push
-- git pull --rebase
+- __git pull --rebase__: fetch + rebase (et non merge), ie on insère les commit des autres et on repart d'une base actualisée par ces commits, avant de la confronter à mes commit à moi.
 - ___add . embarque tout__
 - __git log --oneline__ : affiche le sha + le commit
 - __git show n°duSha__ : (pour recopier le sha, bouton central souris !)
