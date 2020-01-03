@@ -103,3 +103,36 @@ $majeur = ($age >= 18) ? true : false;
 
 - Test de la variable nulle
 if ($variable == NULL) ...
+
+## Boucles
+
+- La boucle WHILE (tant que)
+<?php
+$repetition = 0;
+// je créé une variable avec valeur zéro
+while ($repetition<10) 
+// j'ouvre une boucle : tant que la valeur de la variable < 10, le code entre accolades s'exécute.
+{
+    echo '<p>Bonjour</p>';
+    $repretition = $repetition + 1;
+        */ à chaque fois, j'augmente de 1 la valeur de la variable.
+            on peut écrire plus simplement : $repretition++; /*
+}
+?>
+
+On peut visualiser l'évolution de la variable, en affichant sa valeur à chaque tour :
+    echo '<p>Bonjour</p>' . $repetition . 'fois.';
+
+- La boucle FOR permet de tout faire sur la même ligne
+On la préfère à WHILE quand on sait combien de fois l'instruction doit être répétée.
+<?php
+for ($repetition = 0; $repetition < 10 ; $repetition++)
+{
+    echo '<p>Bonjour</p>';
+}
+?>
+*/ Trois parties dans la syntaxe de FOR : 
+    on initialise la variable à zéro ; 
+    on teste si la condition est remplie 
+        (la valeur de la variable est-elle inf à dix ?) ; 
+    on exécute l'incrémentation.
