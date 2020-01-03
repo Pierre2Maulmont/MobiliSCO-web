@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', event =>
       displayEPLEwithUAI = (etablissements) => etablissements.map(etablissement => 
       write(`EPLE : ${etablissement.nom} - UAI : ${etablissement.UAI} - UAI : ${etablissement.latitude} - UAI : ${etablissement.longitude}`))
          
-      displayEPLEwithUAI(EPLE)   
+      displayEPLEwiethUAI(EPLE)   
    })
 
    document.addEventListener('DOMContentLoaded', event => 
@@ -21,4 +21,6 @@ document.addEventListener('DOMContentLoaded', event =>
       // ici le DOM est chargé :
    
       document.querySelector('header').innerText
+
    })
+
