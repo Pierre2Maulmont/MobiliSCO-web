@@ -5,7 +5,10 @@
 <?php        ?>
 - Commentaires :
 Monoligne : //    //
-Multiligne : */    /*
+Multiligne : /*    */
+
+Pour tester le code sur Firefox :
+http://localhost/tests/Nom_de_fichier.php
 
 ## Variables
 La variable commence par dollar, ne contient pas d'espaces (utiliser_) et se termine par point-virgule
@@ -136,3 +139,14 @@ for ($repetition = 0; $repetition < 10 ; $repetition++)
     on teste si la condition est remplie 
         (la valeur de la variable est-elle inf à dix ?) ; 
     on exécute l'incrémentation.
+
+## TP n° 1 : protéger une page web par un mot de passe
+
+Inviter l'utilisateur à saisir un mot de passe sur la page 1
+Transmettre le mdp à la page 2, vérifier qu'il correspond à "kangourou", afficher la page des secrets
+
+- construire la page 1 : formulaire_nasa.php
+$POST
+
+- créer la page 2 : echo texte "Secrets"
+- construire la condition If pour ouvrir la page 2
