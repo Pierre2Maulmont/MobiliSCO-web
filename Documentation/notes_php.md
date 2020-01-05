@@ -140,13 +140,22 @@ for ($repetition = 0; $repetition < 10 ; $repetition++)
         (la valeur de la variable est-elle inf à dix ?) ; 
     on exécute l'incrémentation.
 
+## Les tableaux
+## Les fonctions
+
 ## TP n° 1 : protéger une page web par un mot de passe
+Préparer au crayon : je veux arriver à faire quoi, schéma du code, en mobilisant quelle tech ?
 
-Inviter l'utilisateur à saisir un mot de passe sur la page 1
-Transmettre le mdp à la page 2, vérifier qu'il correspond à "kangourou", afficher la page des secrets
+## Les variables super-globales : Underscore et majuscule
+En résumé, les variables superglobales sont des variables automatiquement créées par PHP. Elles se présentent sous la forme d'arrays contenant différents types d'informations.
 
-- construire la page 1 : formulaire_nasa.php
-$POST
+$_GET(qui contient les données issues de l'URL)
+$_POST(qui contient les données issues d'un formulaire).
+$_SERVER['REMOTE_ADDR']
+$_SESSION 
+$_COOKIE
+$_FILES
 
-- créer la page 2 : echo texte "Secrets"
-- construire la condition If pour ouvrir la page 2
+La superglobale  $_SESSION  permet de stocker des informations qui seront automatiquement transmises de page en page pendant toute la durée de visite d'un internaute sur votre site. Il faut au préalable activer les sessions en appelant la fonction  session_start().
+
+La superglobale  $_COOKIE  représente le contenu de tous les cookies stockés par votre site sur l'ordinateur du visiteur. Les cookies sont de petits fichiers que l'on peut écrire sur la machine du visiteur pour retenir par exemple son nom. On crée un cookie avec la fonction  setcookie() .
