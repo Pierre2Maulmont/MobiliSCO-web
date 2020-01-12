@@ -159,3 +159,21 @@ $_FILES
 La superglobale  $_SESSION  permet de stocker des informations qui seront automatiquement transmises de page en page pendant toute la durée de visite d'un internaute sur votre site. Il faut au préalable activer les sessions en appelant la fonction  session_start().
 
 La superglobale  $_COOKIE  représente le contenu de tous les cookies stockés par votre site sur l'ordinateur du visiteur. Les cookies sont de petits fichiers que l'on peut écrire sur la machine du visiteur pour retenir par exemple son nom. On crée un cookie avec la fonction  setcookie() .
+
+## PHPmyadmin
+
+id = root et pas de mdp
+varchar = text très court, <=255 caractères
+Pour la clé primaire : type INT et INDEX=primary et cocher case AI (auto increment)
+
+## SQL
+### Commande query (PHP) pour Requête SELECT (SQL)
+FROM 
+WHERE AND OR 
+ORDER BY
+DESC    
+LIMIT
+Boucle while pour echo
+
+### Requête préparée avec $_GET et commande exec (SQL) dans PHP.
+### Requête INSERT INTO, UPDATE avec clause WHERE
