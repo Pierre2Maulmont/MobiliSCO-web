@@ -10,20 +10,32 @@ pwd --help (afficher l'aide de la commande)
 
 __ls :__ voir la liste des fichiers et répertoires dans le dossier courant (sur une ligne avec des espaces).
 __ls -a__ : affiche deux dossiers cachés "." (répertoire courant) et ".." (répertoire parent, en amont). __-l__ donne plus d'infos (notammment: "d" en début de ligne = dossier ; "-" = fichier. __ls -la__ : affiche tout avec + d'infos.
+
 __cd NomDuRépertoire/NomSousRépertoire :__ se placer dans un répertoire (change directory) 
 __cd ..__ remonter au répertoire en amont 
+
 __mkdir :__ créer un dossier  (make directory). ex: mkdir "mon test" (sinon la console crée 2 dossiers) ou mkdir mon\ test (antislash - caractère inhibiteur - permet de lire l'espace comme une lettre normale et non comme un séparateur)
+
 __touch :__ créer un fichier  ex1: touch bonjour.txt  ex2: touch test/bonjour.txt (crée dans le répertoire "test").
+
 __cat :__ afficher le contenu d’un fichier 
+
 __rm -Rf fichier.md :__ remove sans demander confirmation d'un fichier, répertoire. DANGER : à la racine, suivi de *, on efface tout le disque dur !
 __q ou ESC q__ pour sortir après un git logpw
+
 __La touche TAB__ : Autocomplétion, ie complète automatiquement les possibilités de commande déjà saisies. ls Cours 2xTAB affichent les possibilités multiples (Cours1/ Cours2)
+
 __Les flèches__ : remonte aux saisies précédentes
+
 __CTRL r :__ + début de la commande recherchée
+
 __CTRL a __CTRL e :__ aller au tout début ou à la fin de la ligne de commande en cours de saisie
+
 __mv :__ déplace un fichier (move) dans le répertoire qui suit. ex: _mv bonjour.txt test_ (déplace dans répertoire test)
          renomme un fichier. Ex: mv bonjour.txt salut.txt (renomme bonjour en salut) (move signifie aussi "déplacer d'un nom à un autre")
+         
 __cp :__ copier un fichier vers un endroit. Ex: cp bonjour.txt repertoire.
+
 __rm fichier.txt :__ (supprimer un fichier)   __rm -r__ repertoire (supprimer un répertoire)
 
 ## PREMIERS COMMIT
