@@ -5,7 +5,7 @@ https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-githu
 ## CONSOLE Git bash
 https://www.youtube.com/watch?v=SWYqp7iY_Tc
 
-__pwd :__ dans quel répertoire je suis
+__pwd :__ dans quel répertoire je suis (print working directory)
 __ls :__ voir la liste des fichiers et répertoires dans le dossier courant  
 __ls -l -a :__ voir sous forme de liste  
 __cd :__ se placer dans un répertoire  
