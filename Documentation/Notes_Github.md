@@ -14,13 +14,13 @@ __ls -a__ : affiche deux dossiers cachés "." (répertoire courant) et ".." (ré
 __cd NomDuRépertoire/NomSousRépertoire :__ se placer dans un répertoire (change directory) 
 __cd ..__ remonter au répertoire en amont 
 
-__mkdir :__ créer un dossier  (make directory). ex: mkdir "mon test" (sinon la console crée 2 dossiers) ou mkdir mon\ test (antislash - caractère inhibiteur - permet de lire l'espace comme une lettre normale et non comme un séparateur)
+__mkdir :__ créer un dossier  (make directory). _ex: mkdir "mon test"_ (sinon la console crée 2 dossiers) ou _mkdir mon\ test_ (antislash - caractère inhibiteur - permet de lire l'espace comme une lettre normale et non comme un séparateur)
 
-__touch :__ créer un fichier  ex1: touch bonjour.txt  ex2: touch test/bonjour.txt (crée dans le répertoire "test").
+__touch :__ créer un fichier  _ex1: touch bonjour.txt_  _ex2: touch test/bonjour.txt_ (crée dans le répertoire "test").
 
 __cat :__ afficher le contenu d’un fichier 
 
-__rm -Rf fichier.md :__ remove sans demander confirmation d'un fichier, répertoire. DANGER : à la racine, suivi de *, on efface tout le disque dur !
+__rm -Rf fichier.md :__ 
 __q ou ESC q__ pour sortir après un git logpw
 
 __La touche TAB__ : Autocomplétion, ie complète automatiquement les possibilités de commande déjà saisies. ls Cours 2xTAB affichent les possibilités multiples (Cours1/ Cours2)
@@ -36,7 +36,10 @@ __mv :__ déplace un fichier (move) dans le répertoire qui suit. ex: _mv bonjou
          
 __cp :__ copier un fichier vers un endroit. Ex: cp bonjour.txt repertoire.
 
-__rm fichier.txt :__ (supprimer un fichier)   __rm -r__ repertoire (supprimer un répertoire)
+__rm fichier.txt :__ supprimer un fichier (remove) sans demander confirmation d'un fichier  
+
+__rm -r__ repertoire (supprimer un répertoire)
+DANGER : à la racine, suivi de *, on efface tout le disque dur !
 
 ## PREMIERS COMMIT
 
