@@ -6,7 +6,7 @@ https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-githu
 https://www.youtube.com/watch?v=SWYqp7iY_Tc
 
 __pwd :__ dans quel répertoire je suis (print working directory)
-
+pwd --help (afficher l'aide de la commande)
 __ls :__ voir la liste des fichiers et répertoires dans le dossier courant  
 __ls -l -a :__ voir sous forme de liste  
 __cd :__ se placer dans un répertoire  
@@ -16,6 +16,7 @@ __touch :__ créer un fichier
 __cat :__ afficher le contenu d’un fichier 
 __rm -Rf fichier.md :__ remove sans demander confirmation d'un fichier, répertoire. DANGER : à la racine, suivi de *, on efface tout le disque dur !
 __q ou ESC q__ pour sortir après un git log
+La touche TAB complète automatiquement les possibilités de commande déjà saisies. 
 
 
 ## PREMIERS COMMIT
