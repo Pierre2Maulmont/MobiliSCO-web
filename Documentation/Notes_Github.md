@@ -18,7 +18,7 @@ __mkdir :__ créer un dossier  (make directory). _ex: mkdir "mon test"_ (sinon l
 
 __touch :__ créer un fichier  _ex1: touch bonjour.txt_  _ex2: touch test/bonjour.txt_ (crée dans le répertoire "test").
 
-__cat :__ afficher le contenu d’un fichier 
+__cat :__ afficher le contenu d’un fichier. Pour afficher en mode paginé, avec possibilité de naviguer à l'intérieur (plus pratique): __less__ _ex: less lorem.txt_
 
 __rm -Rf fichier.md :__ 
 __q ou ESC q__ pour sortir après un git logpw
@@ -33,13 +33,20 @@ __CTRL a __CTRL e :__ aller au tout début ou à la fin de la ligne de commande 
 
 __mv :__ déplace un fichier (move) dans le répertoire qui suit. ex: _mv bonjour.txt test_ (déplace dans répertoire test)
          renomme un fichier. Ex: mv bonjour.txt salut.txt (renomme bonjour en salut) (move signifie aussi "déplacer d'un nom à un autre")
+         Ex3: _mv * dossier_ (déplace tous les dossiers dans le répertoire "dossier") (* = joker ou wildcard)
          
-__cp :__ copier un fichier vers un endroit. Ex: cp bonjour.txt repertoire.
+__cp :__ copier un fichier vers un endroit. Ex: cp bonjour.txt repertoire
+
+__cp -r :__ copier un répertoire avec tout ses sous-dossiers (_ex: cp -r destination/ destination2_)
 
 __rm fichier.txt :__ supprimer un fichier (remove) sans demander confirmation d'un fichier  
 
 __rm -r__ repertoire (supprimer un répertoire)
 DANGER : à la racine, suivi de *, on efface tout le disque dur !
+
+__man :__ (afficher la page du manuel) _ex: man pwd            q (pour revenir au terminal normal)
+
+__> :__ Commande de redirection _ex: ls -l fichier.txt : le contenu n'est plus affiché mais redirigé à l'intérieur d'un fichier
 
 ## PREMIERS COMMIT
 
