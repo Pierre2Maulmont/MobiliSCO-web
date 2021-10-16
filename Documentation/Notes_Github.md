@@ -20,8 +20,7 @@ __touch :__ créer un fichier  _ex1: touch bonjour.txt_  _ex2: touch test/bonjou
 
 __cat :__ afficher le contenu d’un fichier. Pour afficher en mode paginé, avec possibilité de naviguer à l'intérieur (plus pratique): __less__ _ex: less lorem.txt_
 
-__rm -Rf fichier.md :__ 
-__q ou ESC q__ pour sortir après un git logpw
+cat__q ou ESC q__ pour sortir après un git logpw
 
 __La touche TAB__ : Autocomplétion, ie complète automatiquement les possibilités de commande déjà saisies. ls Cours 2xTAB affichent les possibilités multiples (Cours1/ Cours2)
 
@@ -47,6 +46,10 @@ DANGER : à la racine, suivi de *, on efface tout le disque dur !
 __man :__ (afficher la page du manuel) _ex: man pwd            q (pour revenir au terminal normal)
 
 __> :__ Commande de redirection _ex: ls -l fichier.txt : le contenu n'est plus affiché mais redirigé à l'intérieur d'un fichier
+
+__grep :__ Chercher des informations dans un fichier, sans même avoir besoin de l'ouvrir. Syntaxe : grep "ce que vous cherchez", "là où vous le chercher".
+_ex: grep Cours liste.txt
+_ex2: grep txt *_ (recherche tous les "txt" dans tous les fichiers du répertoire)
 
 ## PREMIERS COMMIT
 
