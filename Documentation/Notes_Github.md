@@ -7,6 +7,7 @@ https://www.youtube.com/watch?v=SWYqp7iY_Tc
 
 __pwd :__ dans quel répertoire je suis (print working directory)
 pwd --help (afficher l'aide de la commande)
+
 __ls :__ voir la liste des fichiers et répertoires dans le dossier courant (sur une ligne avec des espaces).
 __ls -a__ : affiche deux dossiers cachés "." (répertoire courant) et ".." (répertoire parent, en amont). __-l__ donne plus d'infos (notammment: "d" en début de ligne = dossier ; "-" = fichier. __ls -la__ : affiche tout avec + d'infos.
 __cd NomDuRépertoire/NomSousRépertoire :__ se placer dans un répertoire (change directory) 
