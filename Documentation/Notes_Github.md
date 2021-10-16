@@ -7,16 +7,19 @@ https://www.youtube.com/watch?v=SWYqp7iY_Tc
 
 __pwd :__ dans quel répertoire je suis (print working directory)
 pwd --help (afficher l'aide de la commande)
-__ls :__ voir la liste des fichiers et répertoires dans le dossier courant  
-__ls -l -a :__ voir sous forme de liste  
-__cd :__ se placer dans un répertoire  
+__ls :__ voir la liste des fichiers et répertoires dans le dossier courant (sur une ligne avec des espaces).
+__ls -a__ : affiche deux dossiers cachés "." (répertoire courant) et ".." (répertoire parent, en amont). __-l__ donne plus d'infos (notammment: "d" en début de ligne = dossier ; "-" = fichier. __ls -la__ : affiche tout avec + d'infos.
+__cd NomDuRépertoire/NomSousRépertoire :__ se placer dans un répertoire (change directory) 
 __cd ..__ remonter au répertoire en amont 
 __mkdir :__ créer un dossier  
 __touch :__ créer un fichier  
 __cat :__ afficher le contenu d’un fichier 
 __rm -Rf fichier.md :__ remove sans demander confirmation d'un fichier, répertoire. DANGER : à la racine, suivi de *, on efface tout le disque dur !
-__q ou ESC q__ pour sortir après un git log
-La touche TAB complète automatiquement les possibilités de commande déjà saisies. 
+__q ou ESC q__ pour sortir après un git logpw
+__La touche TAB__ complète automatiquement les possibilités de commande déjà saisies. ls Cours 2xTAB affichent les possibilités multiples (Cours1/ Cours2)
+__Les flèches__ : remonte aux saisies précédentes
+__CTRL r :__ + début de la commande recherchée
+__CTRL a __CTRL e :__ aller au tout début ou à la fin de la ligne de commande en cours de saisie
 
 
 ## PREMIERS COMMIT
