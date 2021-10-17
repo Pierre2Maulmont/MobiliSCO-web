@@ -68,9 +68,7 @@ __git commit -m__ "Ajouté ma checklist-vacances.md (woohoo!)"
 __git log :__ affiche la liste de tous les commits que vous avez réalisés ! 
 Le sens de lecture du log est le suivant : on part du commit le plus récent en haut de la liste, au commit le plus vieux en bas de la liste. 
 Dans la liste de cet historique, chaque commit est répertorié avec :
-
 son SHA : son identifiant unique, qui se présente sous forme d'une longue chaîne de caractères et de nombres.
-
 son auteur : qui a fait le commit, utile lorsque vous travaillez à plusieurs sur un projet
 sa date
 sa description
