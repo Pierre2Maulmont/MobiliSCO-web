@@ -90,6 +90,7 @@ Attention, ça crée un nouveau commit dans l'historique du coup ! (le commit "i
 __git commit --amend -m :__ Sinon, si vous voulez simplement modifier le message de votre dernier commit, vous pouvez utiliser la commande suivante :
 git commit --amend -m "Votre nouveau message"
 ... mais attention, vous ne pouvez modifier ce message que si vous n'avez pas encore pushé votre commit sur l'origine !
+
 git reset --hard‌ : Je n'ai pas encore fait mon nouveau commit, mais je veux annuler tous les changements que je n'ai pas encore commités. Possible avec un reset !
 ----------------------------------------------
 Communiquer avec d'autres développeurs et signaler des problèmes de code en déclarant des "issues" ;
