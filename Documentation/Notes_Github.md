@@ -86,6 +86,7 @@ Pour revenir à votre branche principale (au commit le plus récent), on utilise
 On ne peut pas vraiment "supprimer" un commit, mais on a plusieurs options pour l'annuler. Cependant, ces options ont des limites et sont à utiliser avec prudence et parcimonie !
 git revert : vous pouvez "revert" un commit, c'est-à-dire créer un nouveau commit qui fait l'inverse du précédent, avec la commande suivante : git revert SHADuCommit
 Attention, ça crée un nouveau commit dans l'historique du coup ! (le commit "inverse" du précédent)
+
 __git commit --amend -m :__ Sinon, si vous voulez simplement modifier le message de votre dernier commit, vous pouvez utiliser la commande suivante :
 git commit --amend -m "Votre nouveau message"
 ... mais attention, vous ne pouvez modifier ce message que si vous n'avez pas encore pushé votre commit sur l'origine !
