@@ -51,6 +51,14 @@ __grep :__ Chercher des informations dans un fichier, sans même avoir besoin de
 _ex: grep Cours liste.txt
 _ex2: grep txt *_ (recherche tous les "txt" dans tous les fichiers du répertoire)
 
+
+## CREER UN DEPOT LOCAL GIT
+
+Configurer l'identité (nom et adresse mail) est nécessaire pour toute validation dans git. Avec --global, on le fait une fois pour toutes.
+__git config --global user.name "John Doe"
+                      user.email "johndoe@example.com"__
+Pour vérifier la configuration : __git config --list__
+
 ## PREMIERS COMMIT
 
 
@@ -112,9 +120,9 @@ __git pull origin master :__ quelqu'un a modifié le fichier README.md, depuis g
 
 ## BRANCHES
 __git branch :__ indique le nom de la branche (par défaut, à la création d’un repository par git init, Git créé une branche qu’il appelle master) sur laquelle on est (l’étoile)
-git branch NomBranche : créé une nouvelle branche. 
+__git branch NomBranche :__ créé une nouvelle branche. 
 __git checkout NomBranche :__ on change de branche
-git checkout -b : pour créer une branche et vous y positionner. Ainsi, au lieu de taper git branch ma-branche, puis git checkout ma-branche, vous pouvez regrouper ces deux opérations en une seule commande : __git checkout -b ma-branche__
+__git checkout -b :__ pour créer une branche et vous y positionner. Ainsi, au lieu de taper git branch ma-branche, puis git checkout ma-branche, vous pouvez regrouper ces deux opérations en une seule commande : __git checkout -b ma-branche__
 
 __git merge :__ git checkout brancheA, pour ajouter à A ce qu’on a fait dans B puis on utilise la commande : git merge brancheB (on merge B dans A)
 
