@@ -43,7 +43,8 @@ __rm fichier.txt :__ supprimer un fichier (remove) sans demander confirmation d'
 __rm -r__ repertoire (supprimer un répertoire)
 DANGER : à la racine, suivi de *, on efface tout le disque dur !
 
-__man :__ (afficher la page du manuel) _ex: man pwd            q (pour revenir au terminal normal)
+__man :__ (afficher la page du manuel) _ex: man pwd            
+q (pour revenir au terminal normal)
 
 __> :__ Commande de redirection _ex: ls -l fichier.txt : le contenu n'est plus affiché mais redirigé à l'intérieur d'un fichier
 
