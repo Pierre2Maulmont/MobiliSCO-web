@@ -58,6 +58,7 @@ _ex2: grep txt *_ (recherche tous les "txt" dans tous les fichiers du répertoir
 Configurer l'identité (nom et adresse mail) est nécessaire pour toute validation dans git. Avec --global, on le fait une fois pour toutes.
 __git config --global user.name "John Doe"
                       user.email "johndoe@example.com"__
+
 Pour vérifier la configuration : __git config --list__
 
 ## PREMIERS COMMIT
